@@ -93,32 +93,6 @@ Data is organized per student in the following structure:
 
 ---
 
-## File Structure
-
-```
-project/
-├── data/
-│   ├── PSY.csv
-│   ├── EEG.csv
-│   ├── GSR.csv
-│   ├── EYE.csv, IVT.csv
-│   ├── TIVA.csv
-├── notebooks/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_modeling_baseline.ipynb
-│   ├── 04_modeling_fusion.ipynb
-│   └── 05_analysis.ipynb
-├── models/
-│   ├── logistic_regression.joblib
-│   ├── random_forest.joblib
-│   ├── xgboost.joblib
-│   └── stacking_meta.joblib
-├── README.md
-```
-
----
-
 ## Results
 
 * Baseline models achieve competitive accuracy and F1-score.
